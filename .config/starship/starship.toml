@@ -23,3 +23,31 @@ format = "[ $duration ]($style)"
 style = "fg:#e3e5e5 bg:#769ff0"
 format = "[ $path ]($style)"
 truncation_length = 3
+truncation_symbol = "../"
+
+[git_branch]
+symbol = "⎇ "
+style = "bg:#394260"
+format = '[[ $symbol $branch ](fg:#769ff0 bg:#394260)]($style)'
+
+[git_status]
+disabled = true
+
+[nodejs]
+symbol = "[⬢](bold green)"
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+
+[terraform]
+symbol = "◆"
+style = "bold 105"
+format = '[ $symbol $workspace]($style)'
+
+[package]
+disabled = true
+
+[time]
+disabled = false
+time_format = "%R"                                    # Hour:Minute Format
+style = "bg:#1d2230"
+format = '[[ $time ](fg:#a0a9cb bg:#1d2230)]($style)'
