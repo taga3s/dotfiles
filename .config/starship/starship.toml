@@ -13,7 +13,8 @@ $cmd_duration\
 add_newline = false
 
 [character]
-# format = "?"
+success_symbol = '[❯](bold #bbbbbb)'
+error_symbol = '[✗](bold red)'
 
 [cmd_duration]
 min_time = 0
