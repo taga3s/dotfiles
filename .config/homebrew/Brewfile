@@ -1,72 +1,41 @@
 tap "go-task/tap"
-tap "goreleaser/tap"
 tap "hashicorp/tap"
 tap "xwmx/taps"
-# Clone of cat(1) with syntax highlighting and Git integration
+
 brew "bat"
-# Core application library for C
 brew "glib"
-# Vector graphics library with cross-device output support
-brew "cairo"
-# VCL parser and linter optimized for Fastly
 brew "falco"
-# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
-# Fast and simple Node.js version manager
 brew "fnm"
-# Command-line fuzzy finder written in Go
 brew "fzf"
-# GNU compiler collection
 brew "gcc"
-# GitHub command-line tool
 brew "gh"
-# Remote repository management made easy
 brew "ghq"
-# Open source programming language to build simple/reliable/efficient software
 brew "go"
-# OpenType text shaping engine
 brew "harfbuzz"
-# Improved top (interactive process viewer)
 brew "htop"
-# Lightweight and flexible command-line JSON processor
 brew "jq"
-# Fast and powerful Git hooks manager for any type of projects
 brew "lefthook"
-# Fast, async, resource-friendly link checker
 brew "lychee"
-# Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Pins GitHub Actions to full hashes and versions
 brew "pinact"
-# Python version management
 brew "pyenv"
-# Interpreted, interactive, object-oriented programming language
 brew "python@3.12"
-# Rust toolchain installer
 brew "rustup"
-# Cross-shell prompt for astronauts
 brew "starship"
-# OCR (Optical Character Recognition) engine
 brew "tesseract"
-# Display directories as trees (with optional color/HTML output)
 brew "tree"
-# Validating, recursive, caching DNS resolver
 brew "unbound"
-# Internet file retriever
 brew "wget"
-# Additional completion definitions for zsh
 brew "zsh-completions"
 brew "xwmx/taps/nb", trusted: true
-# Command-line interface for 1Password
-cask "1password-cli"
-# Securely stores and accesses AWS credentials in a development environment
+
 cask "aws-vault-binary"
+
 vscode "aflo.kanagawa-glass"
 vscode "anthropic.claude-code"
 vscode "denoland.vscode-deno"
-vscode "esbenp.prettier-vscode"
 vscode "fastly.vscode-fastly-vcl"
-vscode "firsttris.vscode-jest-runner"
 vscode "golang.go"
 vscode "hashicorp.terraform"
 vscode "me-dutour-mathieu.vscode-github-actions"
@@ -81,7 +50,6 @@ vscode "ms-vscode-remote.remote-wsl"
 vscode "nefrob.vscode-just-syntax"
 vscode "oxc.oxc-vscode"
 vscode "redhat.vscode-yaml"
-vscode "ritwickdey.liveserver"
 vscode "slevesque.shader"
 vscode "tamasfe.even-better-toml"
 vscode "typespec.typespec-vscode"
@@ -90,7 +58,9 @@ vscode "vitest.explorer"
 vscode "voidzero.vite-plus-extension-pack"
 vscode "vscode-icons-team.vscode-icons"
 vscode "vue.volar"
+
 go "golang.org/x/tools/gopls"
+
 cargo "cargo-binstall"
 cargo "cargo-insta"
 cargo "cargo-watch"
@@ -102,6 +72,7 @@ cargo "wasm-bindgen-cli"
 cargo "wasm-opt"
 cargo "wasm-pack"
 cargo "wasm-tools"
+
 npm "@anthropic-ai/claude-code"
 npm "bun"
 npm "pnpm"
