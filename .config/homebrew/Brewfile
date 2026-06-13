@@ -32,6 +32,7 @@ brew "xwmx/taps/nb", trusted: true
 cask "wezterm"
 cask "visual-studio-code"
 cask "docker-desktop"
+cask "font-fira-code-nerd-font"
 
 vscode "aflo.kanagawa-glass"
 vscode "anthropic.claude-code"
