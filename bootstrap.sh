@@ -9,6 +9,8 @@ function link_config() {
 
 CONFIG_PATH="${CONFIG_PATH:-$HOME/.config}"
 
+link_config homebrew/Brewfile "$HOME/.homebrew"
 link_config wezterm/wezterm.lua "$CONFIG_PATH/wezterm"
 link_config starship/starship.toml "$CONFIG_PATH"
 link_config nvim "$CONFIG_PATH/nvim"
+
