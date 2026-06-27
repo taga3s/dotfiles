@@ -26,6 +26,7 @@ brew "telnet"
 brew "tree"
 brew "wget"
 brew "zsh-completions"
+brew "grafana/grafana/alloy", trusted: true
 brew "go-task/tap/go-task", trusted: true
 brew "xwmx/taps/nb", trusted: true
 
@@ -43,7 +44,6 @@ vscode "me-dutour-mathieu.vscode-github-actions"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-ceintl.vscode-language-pack-ja"
 vscode "ms-vscode-remote.remote-containers"
-vscode "ms-vscode-remote.remote-wsl"
 vscode "oxc.oxc-vscode"
 vscode "redhat.vscode-yaml"
 vscode "tamasfe.even-better-toml"
