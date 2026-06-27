@@ -64,7 +64,5 @@ cargo "wasm-opt"
 cargo "wasm-pack"
 cargo "wasm-tools"
 
-npm "@anthropic-ai/claude-code"
 npm "bun"
 npm "pnpm"
-npm "yarn"
