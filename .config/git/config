@@ -1,0 +1,18 @@
+#
+# This is the config file, and
+# a '#' or ';' character indicates
+# a comment
+#
+
+[user]
+        name = taga3s
+        email = 107479598+taga3s@users.noreply.github.com 
+
+[init]
+        defaultBranch = main
+
+[core]
+        editor = nvim
+
+[ghq]
+        root = /Users/taga3s/Desktop/my-work

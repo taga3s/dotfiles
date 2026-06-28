@@ -14,4 +14,6 @@ link_config wezterm/wezterm.lua "$XDG_CONFIG_HOME/wezterm"
 link_config starship/starship.toml "$XDG_CONFIG_HOME"
 link_config nvim/init.lua "$XDG_CONFIG_HOME/nvim"
 link_config git/ignore "$XDG_CONFIG_HOME/git"
+link_config git/config "$XDG_CONFIG_HOME/git"
+
 
