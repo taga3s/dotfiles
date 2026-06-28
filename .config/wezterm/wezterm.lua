@@ -11,7 +11,11 @@ config.colors = {
 config.font_size = 12.0
 config.initial_cols = 160
 config.initial_rows = 40
-config.show_new_tab_button_in_tab_bar = false
+
+config.enable_tab_bar = true
+config.use_fancy_tab_bar = true
+config.tab_max_width = 24
+
 config.use_ime = true
 config.window_background_opacity = 0.85
 config.window_decorations = "RESIZE"
