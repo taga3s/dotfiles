@@ -10,6 +10,7 @@ brew "fzf"
 brew "gcc"
 brew "gh"
 brew "ghq"
+brew "git"
 brew "go"
 brew "harfbuzz"
 brew "htop"
@@ -28,6 +29,7 @@ brew "wget"
 brew "zsh-completions"
 brew "grafana/grafana/alloy", trusted: true
 brew "go-task/tap/go-task", trusted: true
+brew "hashicorp/tap/terraform", trusted: true
 brew "xwmx/taps/nb", trusted: true
 
 cask "wezterm"
@@ -64,5 +66,4 @@ cargo "wasm-opt"
 cargo "wasm-pack"
 cargo "wasm-tools"
 
-npm "bun"
 npm "pnpm"
