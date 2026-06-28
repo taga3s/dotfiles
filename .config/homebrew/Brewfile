@@ -1,4 +1,5 @@
 tap "go-task/tap"
+tap "hashicorp/tap"
 tap "xwmx/taps"
 
 brew "bat"
@@ -36,6 +37,8 @@ cask "wezterm"
 cask "visual-studio-code"
 cask "docker-desktop"
 cask "font-fira-code-nerd-font"
+cask "google-chrome"
+cask "postman"
 
 vscode "aflo.kanagawa-glass"
 vscode "anthropic.claude-code"
