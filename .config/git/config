@@ -11,8 +11,15 @@
 [init]
         defaultBranch = main
 
+[commit]
+        verbose = true
+
 [core]
         editor = nvim
+
+[fetch]
+        all = true
+        prune = true
 
 [ghq]
         root = /Users/taga3s/Desktop/my-work
