@@ -30,4 +30,4 @@
         allowedSignersFile = ~/.ssh/allowed_signers
 
 [ghq]
-        root = /Users/taga3s/Desktop/my-work
+        root = /Users/taga3s/my-work
