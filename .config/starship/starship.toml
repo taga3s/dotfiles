@@ -8,8 +8,6 @@ $git_status\
 $nodejs\
 $golang\
 $terraform\
-$time\
-[](fg:#1d2230)\
 $cmd_duration\
 \n$character"""
 
@@ -31,32 +29,26 @@ truncation_symbol = "../"
 
 [git_branch]
 symbol = "⎇"
-style = "bg:#394260"
-format = '[[ $symbol $branch ](fg:#769ff0 bg:#394260)]($style)'
+style = "fg:#769ff0 bg:#394260"
+format = '[ $symbol $branch ]($style)'
 
 [git_status]
 disabled = true
 
 [nodejs]
 symbol = ""
-style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#417e38 bg:#c5e5b4)]($style)'
+style = "fg:#c5e5b4 bg:#2a3145"
+format = '[ $symbol ($version) ]($style)'
 
 [golang]
 symbol = ""
-style = "bg:#007d9c"
-format = '[[ $symbol ($version) ](fg:#5dc9e2 bg:#007d9c)]($style)'
+style = "fg:#5dc9e2 bg:#2a3145"
+format = '[ $symbol ($version) ]($style)'
 
-# [terraform]
-# symbol = "  "
-# style = "bold 105"
-# format = '[ $symbol $workspace]($style)'
+[terraform]
+symbol = " "
+style = "fg:#b28fce bg:#2a3145"
+format = '[ $symbol $workspace ]($style)'
 
 [package]
 disabled = true
-
-[time]
-disabled = false
-time_format = "%R" # Hour:Minute Format
-style = "bg:#1d2230"
-format = '[[   $time ](fg:#a0a9cb bg:#1d2230)]($style)'
