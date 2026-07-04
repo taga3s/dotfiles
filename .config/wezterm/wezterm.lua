@@ -8,7 +8,9 @@ config.colors = {
   cursor_fg = '#1a1a1a',
   cursor_border = '#bbbbbb',
 }
-config.font_size = 12.0
+config.font = wezterm.font("FiraCode Nerd Font", { weight="DemiBold", stretch="Normal", style="Normal" })
+config.font_size = 11.5
+config.line_height = 1.3
 config.initial_cols = 160
 config.initial_rows = 40
 
