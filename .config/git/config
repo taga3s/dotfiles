@@ -19,6 +19,9 @@
 [core]
         editor = nvim
 
+[push]
+        autoSetupRemote = true
+
 [fetch]
         all = true
         prune = true
