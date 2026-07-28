@@ -1,3 +1,11 @@
+require("config.lazy")
+
+-- disable netrw
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
+vim.opt.termguicolors = true
+
 -- share clipboard with OS
 vim.opt.clipboard:append('unnamedplus,unnamed')
 
@@ -48,4 +56,3 @@ create_autocmd('BufWritePre', {
 
 vim.keymap.set('n', 'p', 'p`]', { desc = 'Paste and move to the end' })
 vim.keymap.set('n', 'P', 'P`]', { desc = 'Paste and move to the end' }) 
-
