@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 set -euo pipefail
 
 function link_config() {
@@ -9,9 +9,17 @@ function link_config() {
 
 XDG_CONFIG_HOME="${CONFIG_PATH:-$HOME/.config}"
 
-link_config homebrew/Brewfile "$HOME/.homebrew/Brewfile"
-link_config wezterm "$XDG_CONFIG_HOME"
-link_config starship/starship.toml "$XDG_CONFIG_HOME"
-link_config nvim "$XDG_CONFIG_HOME"
-link_config git "$XDG_CONFIG_HOME"
-link_config gh/config.yml "$XDG_CONFIG_HOME/gh/config.yml"
+typeset -A pairs
+pairs=(
+        homebrew/Brewfile "$HOME/.homebrew/Brewfile"
+        wezterm "$XDG_CONFIG_HOME"
+        starship/starship.toml "$XDG_CONFIG_HOME"
+        nvim "$XDG_CONFIG_HOME"
+        git "$XDG_CONFIG_HOME"
+        gh/config.yml "$XDG_CONFIG_HOME/gh/config.yml"
+)
+
+for key in ${(k)pairs}; do
+  link_config $key $pairs[$key]
+done
+
