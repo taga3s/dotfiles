@@ -12,6 +12,10 @@
 [init]
         defaultBranch = main
 
+[alias]
+        cm = commit
+        sw = switch
+
 [commit]
         verbose = true
         gpgsign = true
