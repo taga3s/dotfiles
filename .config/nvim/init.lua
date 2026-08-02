@@ -5,12 +5,14 @@ vim.opt.termguicolors = true
 -- share clipboard with OS
 vim.opt.clipboard:append('unnamedplus,unnamed')
 
--- use 2-spaces indent
-vim.opt.expandtab = true
+vim.opt.autoindent = true
+vim.opt.smartindent = false
 vim.opt.shiftround = true
-vim.opt.shiftwidth = e
-vim.opt.softtabstop = 2
+
 vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = true
+vim.opt.softtabstop = 2
 
 -- scroll offset as 3 lines
 vim.opt.scrolloff = 3
