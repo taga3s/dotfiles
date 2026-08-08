@@ -17,6 +17,7 @@ pairs=(
         nvim "$XDG_CONFIG_HOME"
         git "$XDG_CONFIG_HOME"
         gh/config.yml "$XDG_CONFIG_HOME/gh/config.yml"
+        zsh/.zshrc "$HOME"
 )
 
 for key in ${(k)pairs}; do
