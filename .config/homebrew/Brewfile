@@ -1,4 +1,3 @@
-tap "go-task/tap"
 tap "hashicorp/tap"
 tap "xwmx/taps"
 
@@ -13,6 +12,7 @@ brew "gh"
 brew "ghq"
 brew "git"
 brew "go"
+brew "go-task"
 brew "harfbuzz"
 brew "htop"
 brew "jq"
@@ -33,7 +33,6 @@ brew "gradle"
 brew "wget"
 brew "zsh-completions"
 brew "grafana/grafana/alloy", trusted: true
-brew "go-task/tap/go-task", trusted: true
 brew "hashicorp/tap/terraform", trusted: true
 brew "xwmx/taps/nb", trusted: true
 
