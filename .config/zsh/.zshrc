@@ -7,6 +7,7 @@ export HOMEBREW_FORBIDDEN_FORMULAE="node python python3 pip npm pnpm yarn claude
 export PATH="$HOME/.local/bin:$PATH"
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 alias proot='cd $(git rev-parse --show-toplevel)'
 
@@ -46,7 +47,6 @@ complete -o nospace -C /opt/homebrew/bin/terraform terraform
 # terraform-docs
 terraform-docs completion zsh > $(brew --prefix)/share/zsh/site-functions/_terraform-docs
 autoload -Uz compinit && compinit
-
 
 ####################
 ### APPLICATIONS ###
